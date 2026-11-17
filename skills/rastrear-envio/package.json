@@ -12,7 +12,7 @@
     "rastrear": "node scripts/rastrear-shalom.js",
     "instalar-navegador": "playwright install chromium",
     "instalar-navegador-servidor": "playwright install --with-deps chromium",
-    "test": "node --test --test-concurrency=1 test/unit.test.js test/integracion.test.js",
+    "test": "node --test --test-concurrency=1 test/unit.test.js test/multichat.test.js test/integracion.test.js",
     "test:unit": "node --test test/unit.test.js"
   },
   "engines": {

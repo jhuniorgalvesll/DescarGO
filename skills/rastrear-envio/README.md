@@ -272,6 +272,12 @@ cuyo titular lo autorice.
 - No probado en servidores en la nube.
 - El enmascarado de direcciones en `--con-destinatario` es heurístico.
 
+## Integración con MultiChat
+
+[`integraciones/multichat/`](integraciones/multichat/INTEGRACION.md) tiene el
+prompt (`SYSTEM_RASTREO`) y el código para que el asistente ✨ de MultiChat
+proponga respuestas basadas solo en el JSON de esta skill.
+
 ## Ampliaciones futuras (fuera de esta versión)
 
 Integración con WooCommerce (leer orden y código desde el pedido), respuestas
