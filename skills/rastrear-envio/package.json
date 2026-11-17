@@ -1,0 +1,24 @@
+{
+  "name": "rastrear-envio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Skill de solo lectura para consultar el rastreo público de Shalom y responder con información verificada.",
+  "license": "MIT",
+  "main": "lib/rastrear.js",
+  "bin": {
+    "rastrear-shalom": "scripts/rastrear-shalom.js"
+  },
+  "scripts": {
+    "rastrear": "node scripts/rastrear-shalom.js",
+    "instalar-navegador": "playwright install chromium",
+    "instalar-navegador-servidor": "playwright install --with-deps chromium",
+    "test": "node --test --test-concurrency=1 test/unit.test.js test/integracion.test.js",
+    "test:unit": "node --test test/unit.test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}
